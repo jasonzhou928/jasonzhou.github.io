@@ -17,16 +17,15 @@ const PROFILE = {
     "My primary research interests include Prosthetics, Machine Learning, Locomotion, Control, and Biomechanics. I work on developing intelligent control systems for robotic lower-limb prostheses to improve user mobility and quality of life.",
     "My work involves using deep learning for intent recognition and analyzing the biomechanics of powered prosthetic devices."
   ],
-  email: "sixu.zhou@gatech.edu", // Inferred from "Verified email at gatech.edu"
+  email: "sixu.zhou@gatech.edu",
   links: {
     googleScholar: "https://scholar.google.com/citations?user=QGegWe4AAAAJ&hl=en",
-    github: "#", // Add your GitHub if available
+    github: "https://github.com/jasonzhou928", 
     twitter: "#",
     linkedin: "#"
   },
-  // REPLACE THE URL BELOW WITH YOUR LOCAL FILE PATH: "./headshot.jpg"
-  // For this preview, I am using a placeholder.
-  image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?fit=crop&w=400&h=400&q=80" 
+  // CHANGED: This now correctly points to the public folder
+  image: "/headshot.png" 
 };
 
 const NEWS = [
@@ -41,72 +40,63 @@ const PUBLICATIONS = [
     authors: ["K Bhakta", "J Maldonado-Contreras", "J Camargo", "S Zhou", "W Compton", "et al."],
     venue: "Journal of Biomechanical Engineering, 2025",
     description: "Proposed a continuous-context intent recognition system for powered prostheses to improve real-time performance.",
-    links: [{ label: "Paper", url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGegWe4AAAAJ&citation_for_view=QGegWe4AAAAJ:u-x6o8ySG0sC" }],
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=300&h=200&fit=crop"
+    links: [{ label: "Paper", url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGegWe4AAAAJ&citation_for_view=QGegWe4AAAAJ:u-x6o8ySG0sC" }]
   },
   {
     title: "Mode-Unified Intent Estimation of a Robotic Prosthesis using Deep-Learning",
     authors: ["H Kim", "D Lee", "JY Maldonado-Contreras", "Sixu Zhou", "KR Herrin", "AJ Young"],
     venue: "IEEE Robotics and Automation Letters (RA-L), 2025",
     description: "Developed a deep learning approach for unified intent estimation in robotic prostheses to enhance control transitions.",
-    links: [{ label: "Paper", url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGegWe4AAAAJ&citation_for_view=QGegWe4AAAAJ:UebtZRa9Y70C" }],
-    image: "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=300&h=200&fit=crop"
+    links: [{ label: "Paper", url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGegWe4AAAAJ&citation_for_view=QGegWe4AAAAJ:UebtZRa9Y70C" }]
   },
   {
     title: "Real-time Adaptation of Deep Learning Walking Speed Estimators Enables Biomimetic Assistance Modulation in an Open-Source Bionic Leg",
     authors: ["J Maldonado-Contreras", "C Johnson", "S Zhou", "H Kim", "I Knight", "KR Herrin", "et al."],
     venue: "IEEE Transactions on Medical Robotics and Bionics, 2025",
     description: "Enabled biomimetic assistance through real-time adaptive speed estimation algorithms.",
-    links: [{ label: "Paper", url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGegWe4AAAAJ&citation_for_view=QGegWe4AAAAJ:roLk4NBZSpQC" }],
-    image: "https://images.unsplash.com/photo-1535378433864-48cf10413030?w=300&h=200&fit=crop"
+    links: [{ label: "Paper", url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGegWe4AAAAJ&citation_for_view=QGegWe4AAAAJ:roLk4NBZSpQC" }]
   },
   {
     title: "An anthropometry-based personalization of powered knee prosthesis for metabolic efficiency",
     authors: ["S Zhou", "H Kim", "JY Maldonado-Contreras", "AÖ Sverrisson", "D Langlois", "et al."],
     venue: "IEEE Transactions on Medical Robotics and Bionics, 2025",
     description: "Studied anthropometry-based personalization methods for improving metabolic efficiency in powered knee users.",
-    links: [{ label: "Paper", url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGegWe4AAAAJ&citation_for_view=QGegWe4AAAAJ:Y0pCki6q_DkC" }],
-    image: "https://images.unsplash.com/photo-1576086213369-97a306d36557?w=300&h=200&fit=crop"
+    links: [{ label: "Paper", url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGegWe4AAAAJ&citation_for_view=QGegWe4AAAAJ:Y0pCki6q_DkC" }]
   },
   {
     title: "Comparing the biomechanical response of users of an open-source powered knee and ankle prosthesis versus a passive prosthesis during ramp and stair ambulation",
     authors: ["S Zhou", "S Kestur", "J Maldonado", "K Herrin", "N Fey", "A Young"],
     venue: "Journal of Biomechanics, 2025",
     description: "Comparative biomechanical analysis of powered vs. passive prostheses on complex terrains like ramps and stairs.",
-    links: [{ label: "Paper", url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGegWe4AAAAJ&citation_for_view=QGegWe4AAAAJ:eQOLeE2rZwMC" }],
-    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=300&h=200&fit=crop"
+    links: [{ label: "Paper", url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGegWe4AAAAJ&citation_for_view=QGegWe4AAAAJ:eQOLeE2rZwMC" }]
   },
   {
     title: "Biomechanical and energetic effects of knee flexion control during incline walking for users of the Power Knee",
     authors: ["S Zhou", "H Kim", "J Maldonado-Contreras", "AÖ Sverrisson", "D Langlois", "et al."],
     venue: "Clinical Biomechanics, 2025",
     description: "Investigated energetic effects of specific knee flexion control strategies in the Power Knee during incline walking.",
-    links: [{ label: "Paper", url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGegWe4AAAAJ&citation_for_view=QGegWe4AAAAJ:9yKSN-GCB0IC" }],
-    image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=300&h=200&fit=crop"
+    links: [{ label: "Paper", url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGegWe4AAAAJ&citation_for_view=QGegWe4AAAAJ:9yKSN-GCB0IC" }]
   },
   {
     title: "Transfer Learning for Walking Speed Estimation Across Novel Prosthetic Devices and Populations",
     authors: ["J Maldonado-Contreras", "C Johnson", "IJ Knight", "A Sawant", "S Zhou", "H Kim", "et al."],
     venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025",
     description: "Applied transfer learning to robustly estimate walking speed across different devices and user populations.",
-    links: [{ label: "Paper", url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGegWe4AAAAJ&citation_for_view=QGegWe4AAAAJ:Tyk-4Ss8FVUC" }],
-    image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=300&h=200&fit=crop"
+    links: [{ label: "Paper", url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGegWe4AAAAJ&citation_for_view=QGegWe4AAAAJ:Tyk-4Ss8FVUC" }]
   },
   {
     title: "Comparing the lower limb joint biomechanics of the Power Knee, C-Leg and Rheo Knee during ramp and stair ambulation",
     authors: ["S Kestur", "S Zhou", "G O'Sullivan", "A Young", "K Herrin"],
     venue: "Journal of Biomechanics, 2024",
     description: "Comparative study of lower limb biomechanics across three different microprocessor knees.",
-    links: [{ label: "Paper", url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGegWe4AAAAJ&citation_for_view=QGegWe4AAAAJ:YsMSGLbcyi4C" }],
-    image: "https://images.unsplash.com/photo-1584036561566-b93a901e3feb?w=300&h=200&fit=crop"
+    links: [{ label: "Paper", url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGegWe4AAAAJ&citation_for_view=QGegWe4AAAAJ:YsMSGLbcyi4C" }]
   },
   {
     title: "Opensim model for biomechanical analysis with the open-source bionic leg",
     authors: ["J Camargo", "K Bhakta", "J Maldonado-Contreras", "Sixu Zhou", "K Herrin", "A Young"],
     venue: "International Symposium on Medical Robotics (ISMR), 2022",
     description: "Created an Opensim model to analyze biomechanics with the open-source bionic leg.",
-    links: [{ label: "Paper", url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGegWe4AAAAJ&citation_for_view=QGegWe4AAAAJ:u5HHmVD_uO8C" }],
-    image: "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?w=300&h=200&fit=crop"
+    links: [{ label: "Paper", url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGegWe4AAAAJ&citation_for_view=QGegWe4AAAAJ:u5HHmVD_uO8C" }]
   }
 ];
 
@@ -147,16 +137,16 @@ export default function App() {
               <a href={`mailto:${PROFILE.email}`} className="hover:text-blue-600 hover:underline transition-colors flex items-center gap-1">
                 <Mail size={16} /> Email
               </a>
-              <a href={PROFILE.links.googleScholar} className="hover:text-blue-600 hover:underline transition-colors flex items-center gap-1">
+              <a href={PROFILE.links.googleScholar} className="hover:text-blue-600 hover:underline transition-colors flex items-center gap-1" target="_blank" rel="noreferrer">
                 <FileText size={16} /> Google Scholar
               </a>
-              <a href={PROFILE.links.github} className="hover:text-blue-600 hover:underline transition-colors flex items-center gap-1">
+              <a href={PROFILE.links.github} className="hover:text-blue-600 hover:underline transition-colors flex items-center gap-1" target="_blank" rel="noreferrer">
                 <Github size={16} /> Github
               </a>
-              <a href={PROFILE.links.twitter} className="hover:text-blue-600 hover:underline transition-colors flex items-center gap-1">
+              <a href={PROFILE.links.twitter} className="hover:text-blue-600 hover:underline transition-colors flex items-center gap-1" target="_blank" rel="noreferrer">
                 <Twitter size={16} /> Twitter
               </a>
-              <a href={PROFILE.links.linkedin} className="hover:text-blue-600 hover:underline transition-colors flex items-center gap-1">
+              <a href={PROFILE.links.linkedin} className="hover:text-blue-600 hover:underline transition-colors flex items-center gap-1" target="_blank" rel="noreferrer">
                 <Linkedin size={16} /> LinkedIn
               </a>
             </div>
@@ -199,56 +189,39 @@ export default function App() {
               <h2 className="text-2xl font-bold mb-8 border-b pb-2">Publications</h2>
               <div className="space-y-10">
                 {PUBLICATIONS.map((pub, index) => (
-                  <div key={index} className="flex flex-col md:flex-row gap-6">
-                    {/* Publication Thumbnail */}
-                    <div className="md:w-1/4 flex-shrink-0">
-                      <div className="aspect-video w-full rounded border overflow-hidden shadow-sm hover:shadow-md transition-shadow bg-gray-100">
-                        <img 
-                          src={pub.image} 
-                          alt={pub.title} 
-                          className="w-full h-full object-cover"
-                        />
-                      </div>
+                  <div key={index} className="flex flex-col gap-2">
+                    <h3 className="text-lg font-semibold mb-1 leading-tight">
+                      <a href={pub.links[0]?.url} className="hover:text-blue-600 hover:underline text-gray-900" target="_blank" rel="noreferrer">
+                        {pub.title}
+                      </a>
+                    </h3>
+                    
+                    <div className="text-gray-600">
+                      {pub.authors.map((author, i) => (
+                        <React.Fragment key={i}>
+                          <span className={author.includes("Sixu Zhou") || author === "S Zhou" ? "font-semibold text-gray-900" : "font-normal"}>
+                            {author}
+                          </span>
+                          {i < pub.authors.length - 1 && ", "}
+                        </React.Fragment>
+                      ))}
                     </div>
                     
-                    {/* Publication Details */}
-                    <div className="flex-1">
-                      <h3 className="text-lg font-semibold mb-1 leading-tight">
-                        <a href={pub.links[0]?.url} className="hover:text-blue-600 hover:underline text-gray-900">
-                          {pub.title}
+                    <div className="text-sm font-medium text-gray-500 italic">
+                      {pub.venue}
+                    </div>
+                    
+                    <div className="flex gap-3 text-sm mt-1">
+                      {pub.links.map((link, i) => (
+                        <a 
+                          key={i} 
+                          href={link.url}
+                          className="text-blue-600 hover:text-blue-800 hover:underline font-medium inline-flex items-center gap-0.5"
+                          target="_blank" rel="noreferrer"
+                        >
+                          [{link.label}]
                         </a>
-                      </h3>
-                      
-                      <div className="text-gray-600 mb-2">
-                        {pub.authors.map((author, i) => (
-                          <React.Fragment key={i}>
-                            <span className={author.includes("Sixu Zhou") || author === "S Zhou" ? "font-semibold text-gray-900" : "font-normal"}>
-                              {author}
-                            </span>
-                            {i < pub.authors.length - 1 && ", "}
-                          </React.Fragment>
-                        ))}
-                      </div>
-                      
-                      <div className="text-sm font-medium text-gray-500 mb-2 italic">
-                        {pub.venue}
-                      </div>
-                      
-                      <p className="text-gray-600 text-sm mb-3 leading-relaxed">
-                        {pub.description}
-                      </p>
-                      
-                      <div className="flex gap-3 text-sm">
-                        {pub.links.map((link, i) => (
-                          <a 
-                            key={i} 
-                            href={link.url}
-                            className="text-blue-600 hover:text-blue-800 hover:underline font-medium inline-flex items-center gap-0.5"
-                          >
-                            [{link.label}]
-                          </a>
-                        ))}
-                      </div>
+                      ))}
                     </div>
                   </div>
                 ))}
